@@ -17,7 +17,7 @@ export default function AddTodo(props) {
        else
        {
 
-           props.addTodo(title,desc);  //addTodo function will bw called and it will take our title and desc
+           props.addTodo(title,desc);  //addTodo function will be called and it will take our title and desc
            
         //after adding to todo list we will clear our inputs
         setTitle("");
